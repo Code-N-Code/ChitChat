@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/single_message_img"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/single_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/single_message_img"
+        android:background="@drawable/message_text_background"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="10dp"
+        android:text="Message Goes Here!"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+</RelativeLayout>
